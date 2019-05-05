@@ -1,0 +1,14 @@
+Create a new directory in which all the built files end up
+mkdir build
+
+Navigate to the newly created directory
+cd build
+
+Use cmake to create proper files
+cmake -S .. -B .
+
+On linux: Run make
+make all
+
+Finally, run the game using
+./launch-sailing_ship.sh
